@@ -1,0 +1,16 @@
+[Unit]
+Description=Bilibili Live Stream DingTalk Notifier
+After=network.target
+
+[Service]
+Type=simple
+User=bili
+WorkingDirectory=/home/bili/bili-notifier
+ExecStart=/usr/bin/python3 /home/bili/bili-notifier/main.py
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
