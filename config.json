@@ -1,0 +1,13 @@
+{
+  "dingtalk": {
+    "webhook": "https://oapi.dingtalk.com/robot/send?access_token=fa66a910f9804e436e9ada9fc7ae82dd8dc9182135e2206c2af6be0efeacfebe",
+    "secret": "SEC22eb8c74c0420ce4d57faa0bee9d8847aea84eb183ad6a95b95dc2b4a3887f9d"
+  },
+  "check_interval": 300,
+  "rooms": [
+    {
+      "room_id": 24377245,
+      "anchor_name": "主播"
+    }
+  ]
+}
